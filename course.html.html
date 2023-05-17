@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Marinduque State College</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="images/mscbanner.png"></a>
+				<div class="nav-links"id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">COURSE</a></li>
+						<li><a href="">BLOG</a></li>
+						<li><a href="">CONTACT</a></li>
+					</ul>
+				</div> 
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Our Courses</h1>
+
+	</section>
+
+<!------Course------>
+
+<section class="course">
+	<h1>Course We Offer</h1>
+	<p>Below are the courses that we offer to the future MSCians and it also shows the Branches and Campuses of MSC</p>
+
+	<div class="row">
+			<div course="course-col">
+				<h3>Undergraduate Programs</h3>
+				<p>Institute of Agriculture (Torrijos)<br>Institute of Arts & Social Sciences,<br>Institute of Allied Health Sciences,<br>
+				Institute of Accountancy,<br> Business Administration & Tourism Management,<br>Institute of Education,<br> Institute of Engineering,<br>Department of Environmental Sciences,<br>Department of Fisheries (Gasan),<br>Institute of Governance & Public Affairs,<br>Department of Industrial Technology,<br> Institute of Information Systems & Technology</p>
+			</div>
+			<div course="course-col">
+				<h3>Colleges</h3>
+				<p>College of Engineering<br>College of Information and Computing Sciences<br>College of Industrial Technology<br>College of Education<br>College of arts and Social Sciences<br>College of Business and Accountancy<br>College of Governance<br>College of Agriculture(Torrijos)<br>College of Fisheries and Aquatic Sciences(Gasan)<br>College of Allied Health Sciences<br>College of Environmental Studies</p>
+				
+			</div>
+			<div course="course-col">
+				<h3>Branches and Campuses</h3>
+				<p>Boac Campus (Main Campus)<br>Gasan Campus<br>Santa Cruz Campus<br>Torrijos Campus</p>
+			</div>
+	</div>
+
+</section>
+
+<!------Facilities----->
+
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>Below is the Facilities of Marinduque State College</p>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="images/msc_lrc.jpg">
+			<h3>Main Campus Library</h3>
+			<p>Marindque State College Learning Resource Center</p>
+		</div>
+		<div class="facilities-col">
+			<img src="images/msc_gym.png">
+			<h3>Main Campus Gymnasium</h3>
+			<p>Marindque State College Gymnasium</p>
+		</div>
+		<div class="facilities-col">
+			<img src="images/grandstand.jpg">
+			<h3>Main Campus Grandstand</h3>
+			<p>Marindque State College Grandstand</p>
+		</div>
+	</div>
+		
+
+</section>
+
+<!------Footer----->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>You can contact us through this Social Media platforms.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-telehgramk"></i>
+	</div>
+	<p>Made by Aldean Matthew</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+
+</script>
+
+</body>
+</html>
